@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183A39131F6B63AD00F66455 /* WJDiscoveryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183A39121F6B63AD00F66455 /* WJDiscoveryViewController.storyboard */; };
+		183A39161F6B691500F66455 /* WJGroupBuyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183A39151F6B691500F66455 /* WJGroupBuyController.m */; };
+		183A39191F6B706200F66455 /* WJTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 183A39181F6B706200F66455 /* WJTitleButton.m */; };
+		183A391B1F6B9B5000F66455 /* WJMyLotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183A391A1F6B9B5000F66455 /* WJMyLotteryViewController.xib */; };
+		183A39201F6BECF000F66455 /* WJSaveService.m in Sources */ = {isa = PBXBuildFile; fileRef = 183A391F1F6BECF000F66455 /* WJSaveService.m */; };
+		183A39271F6BFC8000F66455 /* WJGuideService.m in Sources */ = {isa = PBXBuildFile; fileRef = 183A39261F6BFC8000F66455 /* WJGuideService.m */; };
+		184508021F66200A00D41CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184508011F66200A00D41CD8 /* Assets.xcassets */; };
+		184508051F66200A00D41CD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184508031F66200A00D41CD8 /* LaunchScreen.storyboard */; };
+		1845082E1F663FEC00D41CD8 /* WJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184508231F663FEC00D41CD8 /* WJTabBarController.m */; };
+		1845082F1F663FEC00D41CD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845082C1F663FEC00D41CD8 /* AppDelegate.m */; };
+		184508301F663FEC00D41CD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845082D1F663FEC00D41CD8 /* main.m */; };
+		184508331F66401700D41CD8 /* WJHallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184508321F66401700D41CD8 /* WJHallViewController.m */; };
+		184508361F66404000D41CD8 /* WJArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184508351F66404000D41CD8 /* WJArenaViewController.m */; };
+		184508391F6640C800D41CD8 /* WJDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184508381F6640C800D41CD8 /* WJDiscoveryViewController.m */; };
+		1845083C1F6640F200D41CD8 /* WJHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845083B1F6640F200D41CD8 /* WJHistoryViewController.m */; };
+		1845083F1F66412500D41CD8 /* WJMyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845083E1F66412500D41CD8 /* WJMyLotteryViewController.m */; };
+		188C947D1F67DD1E00E19F6C /* WJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C947C1F67DD1E00E19F6C /* WJTabBar.m */; };
+		188DE89F1F690BDB0014230F /* WJCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 188DE89E1F690BDB0014230F /* WJCover.m */; };
+		188DE8A21F6910F20014230F /* WJPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 188DE8A11F6910F20014230F /* WJPopMenu.m */; };
+		188DE8A41F6911530014230F /* WJPopMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188DE8A31F6911530014230F /* WJPopMenu.xib */; };
+		18951A931F680E5700DC0A7F /* WJTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18951A921F680E5700DC0A7F /* WJTabBarButton.m */; };
+		18951A991F68170B00DC0A7F /* WJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18951A981F68170B00DC0A7F /* WJNavigationController.m */; };
+		18951AC61F682D8400DC0A7F /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 18951AC51F682D8400DC0A7F /* UIImage+Image.m */; };
+		18C011E91F6CC9670062001F /* WJSettingitem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C011E81F6CC9670062001F /* WJSettingitem.m */; };
+		18C011EC1F6CFC260062001F /* WJGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C011EB1F6CFC260062001F /* WJGroupItem.m */; };
+		18C011EF1F6D0A680062001F /* WJSettingArrowitem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C011EE1F6D0A680062001F /* WJSettingArrowitem.m */; };
+		18C011F21F6D0A790062001F /* WJSettingSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C011F11F6D0A790062001F /* WJSettingSwitchItem.m */; };
+		18C011F51F6D13790062001F /* WJSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C011F41F6D13790062001F /* WJSettingCell.m */; };
+		18C011F81F6D3F7F0062001F /* WJPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C011F71F6D3F7F0062001F /* WJPushViewController.m */; };
+		18C011FE1F6D51590062001F /* WJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C011FD1F6D51590062001F /* WJBaseViewController.m */; };
+		18C012011F6D5C070062001F /* WJAwardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C012001F6D5C070062001F /* WJAwardViewController.m */; };
+		18C012041F6D63660062001F /* WJScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C012031F6D63660062001F /* WJScoreViewController.m */; };
+		18EACB5A1F6CBE9B00026776 /* WJSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EACB591F6CBE9B00026776 /* WJSettingViewController.m */; };
+		18EFCC291F6A1F4300BB0AE1 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFCC281F6A1F4300BB0AE1 /* UIView+Frame.m */; };
+		18EFCC2C1F6A2B5500BB0AE1 /* WJArenaNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFCC2B1F6A2B5500BB0AE1 /* WJArenaNavController.m */; };
+		18EFCC331F6A4D2300BB0AE1 /* WJNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFCC321F6A4D2300BB0AE1 /* WJNewFeatureViewController.m */; };
+		18EFCC361F6A4E6400BB0AE1 /* WJNewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFCC351F6A4E6400BB0AE1 /* WJNewFeatureCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		183A39121F6B63AD00F66455 /* WJDiscoveryViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WJDiscoveryViewController.storyboard; sourceTree = "<group>"; };
+		183A39141F6B691500F66455 /* WJGroupBuyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJGroupBuyController.h; sourceTree = "<group>"; };
+		183A39151F6B691500F66455 /* WJGroupBuyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJGroupBuyController.m; sourceTree = "<group>"; };
+		183A39171F6B706200F66455 /* WJTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WJTitleButton.h; path = ../../../WJTitleButton.h; sourceTree = "<group>"; };
+		183A39181F6B706200F66455 /* WJTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WJTitleButton.m; path = ../../../WJTitleButton.m; sourceTree = "<group>"; };
+		183A391A1F6B9B5000F66455 /* WJMyLotteryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WJMyLotteryViewController.xib; sourceTree = "<group>"; };
+		183A391E1F6BECF000F66455 /* WJSaveService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSaveService.h; sourceTree = "<group>"; };
+		183A391F1F6BECF000F66455 /* WJSaveService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSaveService.m; sourceTree = "<group>"; };
+		183A39251F6BFC8000F66455 /* WJGuideService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJGuideService.h; sourceTree = "<group>"; };
+		183A39261F6BFC8000F66455 /* WJGuideService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJGuideService.m; sourceTree = "<group>"; };
+		184507F21F66200A00D41CD8 /* 彩票1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "彩票1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184508011F66200A00D41CD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184508041F66200A00D41CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184508061F66200A00D41CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184508221F663FEC00D41CD8 /* WJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTabBarController.h; sourceTree = "<group>"; };
+		184508231F663FEC00D41CD8 /* WJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTabBarController.m; sourceTree = "<group>"; };
+		1845082B1F663FEC00D41CD8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1845082C1F663FEC00D41CD8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1845082D1F663FEC00D41CD8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184508311F66401700D41CD8 /* WJHallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJHallViewController.h; sourceTree = "<group>"; };
+		184508321F66401700D41CD8 /* WJHallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJHallViewController.m; sourceTree = "<group>"; };
+		184508341F66404000D41CD8 /* WJArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJArenaViewController.h; sourceTree = "<group>"; };
+		184508351F66404000D41CD8 /* WJArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJArenaViewController.m; sourceTree = "<group>"; };
+		184508371F6640C800D41CD8 /* WJDiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJDiscoveryViewController.h; sourceTree = "<group>"; };
+		184508381F6640C800D41CD8 /* WJDiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJDiscoveryViewController.m; sourceTree = "<group>"; };
+		1845083A1F6640F200D41CD8 /* WJHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJHistoryViewController.h; sourceTree = "<group>"; };
+		1845083B1F6640F200D41CD8 /* WJHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJHistoryViewController.m; sourceTree = "<group>"; };
+		1845083D1F66412500D41CD8 /* WJMyLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJMyLotteryViewController.h; sourceTree = "<group>"; };
+		1845083E1F66412500D41CD8 /* WJMyLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJMyLotteryViewController.m; sourceTree = "<group>"; };
+		188C947B1F67DD1E00E19F6C /* WJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTabBar.h; sourceTree = "<group>"; };
+		188C947C1F67DD1E00E19F6C /* WJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTabBar.m; sourceTree = "<group>"; };
+		188DE89D1F690BDB0014230F /* WJCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCover.h; sourceTree = "<group>"; };
+		188DE89E1F690BDB0014230F /* WJCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCover.m; sourceTree = "<group>"; };
+		188DE8A01F6910F20014230F /* WJPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJPopMenu.h; sourceTree = "<group>"; };
+		188DE8A11F6910F20014230F /* WJPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJPopMenu.m; sourceTree = "<group>"; };
+		188DE8A31F6911530014230F /* WJPopMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WJPopMenu.xib; sourceTree = "<group>"; };
+		18951A911F680E5700DC0A7F /* WJTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WJTabBarButton.h; path = ../Controller/WJTabBarButton.h; sourceTree = "<group>"; };
+		18951A921F680E5700DC0A7F /* WJTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WJTabBarButton.m; path = ../Controller/WJTabBarButton.m; sourceTree = "<group>"; };
+		18951A971F68170B00DC0A7F /* WJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJNavigationController.h; sourceTree = "<group>"; };
+		18951A981F68170B00DC0A7F /* WJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJNavigationController.m; sourceTree = "<group>"; };
+		18951AC41F682D8400DC0A7F /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		18951AC51F682D8400DC0A7F /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		18C011E71F6CC9670062001F /* WJSettingitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSettingitem.h; sourceTree = "<group>"; };
+		18C011E81F6CC9670062001F /* WJSettingitem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSettingitem.m; sourceTree = "<group>"; };
+		18C011EA1F6CFC260062001F /* WJGroupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJGroupItem.h; sourceTree = "<group>"; };
+		18C011EB1F6CFC260062001F /* WJGroupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJGroupItem.m; sourceTree = "<group>"; };
+		18C011ED1F6D0A680062001F /* WJSettingArrowitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSettingArrowitem.h; sourceTree = "<group>"; };
+		18C011EE1F6D0A680062001F /* WJSettingArrowitem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSettingArrowitem.m; sourceTree = "<group>"; };
+		18C011F01F6D0A790062001F /* WJSettingSwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSettingSwitchItem.h; sourceTree = "<group>"; };
+		18C011F11F6D0A790062001F /* WJSettingSwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSettingSwitchItem.m; sourceTree = "<group>"; };
+		18C011F31F6D13790062001F /* WJSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSettingCell.h; sourceTree = "<group>"; };
+		18C011F41F6D13790062001F /* WJSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSettingCell.m; sourceTree = "<group>"; };
+		18C011F61F6D3F7F0062001F /* WJPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJPushViewController.h; sourceTree = "<group>"; };
+		18C011F71F6D3F7F0062001F /* WJPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJPushViewController.m; sourceTree = "<group>"; };
+		18C011FC1F6D51590062001F /* WJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJBaseViewController.h; sourceTree = "<group>"; };
+		18C011FD1F6D51590062001F /* WJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJBaseViewController.m; sourceTree = "<group>"; };
+		18C011FF1F6D5C070062001F /* WJAwardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAwardViewController.h; sourceTree = "<group>"; };
+		18C012001F6D5C070062001F /* WJAwardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAwardViewController.m; sourceTree = "<group>"; };
+		18C012021F6D63660062001F /* WJScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJScoreViewController.h; sourceTree = "<group>"; };
+		18C012031F6D63660062001F /* WJScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJScoreViewController.m; sourceTree = "<group>"; };
+		18EACB581F6CBE9B00026776 /* WJSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSettingViewController.h; sourceTree = "<group>"; };
+		18EACB591F6CBE9B00026776 /* WJSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSettingViewController.m; sourceTree = "<group>"; };
+		18EFCC271F6A1F4300BB0AE1 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		18EFCC281F6A1F4300BB0AE1 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		18EFCC2A1F6A2B5500BB0AE1 /* WJArenaNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJArenaNavController.h; sourceTree = "<group>"; };
+		18EFCC2B1F6A2B5500BB0AE1 /* WJArenaNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJArenaNavController.m; sourceTree = "<group>"; };
+		18EFCC311F6A4D2300BB0AE1 /* WJNewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJNewFeatureViewController.h; sourceTree = "<group>"; };
+		18EFCC321F6A4D2300BB0AE1 /* WJNewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJNewFeatureViewController.m; sourceTree = "<group>"; };
+		18EFCC341F6A4E6400BB0AE1 /* WJNewFeatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJNewFeatureCell.h; sourceTree = "<group>"; };
+		18EFCC351F6A4E6400BB0AE1 /* WJNewFeatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJNewFeatureCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184507EF1F66200A00D41CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183A391C1F6BECD400F66455 /* Service(服务） */ = {
+			isa = PBXGroup;
+			children = (
+				183A391D1F6BECD400F66455 /* Save */,
+			);
+			path = "Service(服务）";
+			sourceTree = "<group>";
+		};
+		183A391D1F6BECD400F66455 /* Save */ = {
+			isa = PBXGroup;
+			children = (
+				183A391E1F6BECF000F66455 /* WJSaveService.h */,
+				183A391F1F6BECF000F66455 /* WJSaveService.m */,
+			);
+			path = Save;
+			sourceTree = "<group>";
+		};
+		183A39211F6BFC5600F66455 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				183A39251F6BFC8000F66455 /* WJGuideService.h */,
+				183A39261F6BFC8000F66455 /* WJGuideService.m */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		184507E91F66200A00D41CD8 = {
+			isa = PBXGroup;
+			children = (
+				184507F41F66200A00D41CD8 /* 彩票1 */,
+				184507F31F66200A00D41CD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184507F31F66200A00D41CD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184507F21F66200A00D41CD8 /* 彩票1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184507F41F66200A00D41CD8 /* 彩票1 */ = {
+			isa = PBXGroup;
+			children = (
+				1845080F1F663FEC00D41CD8 /* Classes */,
+				184508011F66200A00D41CD8 /* Assets.xcassets */,
+				184508031F66200A00D41CD8 /* LaunchScreen.storyboard */,
+				184508061F66200A00D41CD8 /* Info.plist */,
+				184507F51F66200A00D41CD8 /* Supporting Files */,
+			);
+			path = "彩票1";
+			sourceTree = "<group>";
+		};
+		184507F51F66200A00D41CD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1845080F1F663FEC00D41CD8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18EACB541F6CBE7300026776 /* Setting(设置） */,
+				183A39211F6BFC5600F66455 /* Guide */,
+				183A391C1F6BECD400F66455 /* Service(服务） */,
+				18EFCC2D1F6A4CB800BB0AE1 /* NewFeature(新特性界面） */,
+				184508101F663FEC00D41CD8 /* Arena(竞技场） */,
+				184508141F663FEC00D41CD8 /* Discovery（发现） */,
+				184508181F663FEC00D41CD8 /* History（开奖信息） */,
+				1845081C1F663FEC00D41CD8 /* LotteryHall（购彩大厅） */,
+				184508201F663FEC00D41CD8 /* Main */,
+				184508261F663FEC00D41CD8 /* MyLottery（我的彩票） */,
+				1845082A1F663FEC00D41CD8 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		184508101F663FEC00D41CD8 /* Arena(竞技场） */ = {
+			isa = PBXGroup;
+			children = (
+				184508111F663FEC00D41CD8 /* Controller */,
+				184508121F663FEC00D41CD8 /* Model */,
+				184508131F663FEC00D41CD8 /* View */,
+			);
+			path = "Arena(竞技场）";
+			sourceTree = "<group>";
+		};
+		184508111F663FEC00D41CD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				184508341F66404000D41CD8 /* WJArenaViewController.h */,
+				184508351F66404000D41CD8 /* WJArenaViewController.m */,
+				18EFCC2A1F6A2B5500BB0AE1 /* WJArenaNavController.h */,
+				18EFCC2B1F6A2B5500BB0AE1 /* WJArenaNavController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		184508121F663FEC00D41CD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		184508131F663FEC00D41CD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		184508141F663FEC00D41CD8 /* Discovery（发现） */ = {
+			isa = PBXGroup;
+			children = (
+				184508151F663FEC00D41CD8 /* Controller */,
+				184508161F663FEC00D41CD8 /* Model */,
+				184508171F663FEC00D41CD8 /* View */,
+			);
+			path = "Discovery（发现）";
+			sourceTree = "<group>";
+		};
+		184508151F663FEC00D41CD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				184508371F6640C800D41CD8 /* WJDiscoveryViewController.h */,
+				184508381F6640C800D41CD8 /* WJDiscoveryViewController.m */,
+				183A39121F6B63AD00F66455 /* WJDiscoveryViewController.storyboard */,
+				183A39141F6B691500F66455 /* WJGroupBuyController.h */,
+				183A39151F6B691500F66455 /* WJGroupBuyController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		184508161F663FEC00D41CD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		184508171F663FEC00D41CD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				183A39171F6B706200F66455 /* WJTitleButton.h */,
+				183A39181F6B706200F66455 /* WJTitleButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		184508181F663FEC00D41CD8 /* History（开奖信息） */ = {
+			isa = PBXGroup;
+			children = (
+				184508191F663FEC00D41CD8 /* Controller */,
+				1845081A1F663FEC00D41CD8 /* Model */,
+				1845081B1F663FEC00D41CD8 /* View */,
+			);
+			path = "History（开奖信息）";
+			sourceTree = "<group>";
+		};
+		184508191F663FEC00D41CD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1845083A1F6640F200D41CD8 /* WJHistoryViewController.h */,
+				1845083B1F6640F200D41CD8 /* WJHistoryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1845081A1F663FEC00D41CD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1845081B1F663FEC00D41CD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1845081C1F663FEC00D41CD8 /* LotteryHall（购彩大厅） */ = {
+			isa = PBXGroup;
+			children = (
+				1845081D1F663FEC00D41CD8 /* Controller */,
+				1845081E1F663FEC00D41CD8 /* Model */,
+				1845081F1F663FEC00D41CD8 /* View */,
+			);
+			path = "LotteryHall（购彩大厅）";
+			sourceTree = "<group>";
+		};
+		1845081D1F663FEC00D41CD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				184508311F66401700D41CD8 /* WJHallViewController.h */,
+				184508321F66401700D41CD8 /* WJHallViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1845081E1F663FEC00D41CD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1845081F1F663FEC00D41CD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				188DE89D1F690BDB0014230F /* WJCover.h */,
+				188DE89E1F690BDB0014230F /* WJCover.m */,
+				188DE8A01F6910F20014230F /* WJPopMenu.h */,
+				188DE8A11F6910F20014230F /* WJPopMenu.m */,
+				188DE8A31F6911530014230F /* WJPopMenu.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		184508201F663FEC00D41CD8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				184508211F663FEC00D41CD8 /* Controller */,
+				184508241F663FEC00D41CD8 /* Model */,
+				184508251F663FEC00D41CD8 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		184508211F663FEC00D41CD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				184508221F663FEC00D41CD8 /* WJTabBarController.h */,
+				184508231F663FEC00D41CD8 /* WJTabBarController.m */,
+				18951A971F68170B00DC0A7F /* WJNavigationController.h */,
+				18951A981F68170B00DC0A7F /* WJNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		184508241F663FEC00D41CD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		184508251F663FEC00D41CD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18951A911F680E5700DC0A7F /* WJTabBarButton.h */,
+				18951A921F680E5700DC0A7F /* WJTabBarButton.m */,
+				188C947B1F67DD1E00E19F6C /* WJTabBar.h */,
+				188C947C1F67DD1E00E19F6C /* WJTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		184508261F663FEC00D41CD8 /* MyLottery（我的彩票） */ = {
+			isa = PBXGroup;
+			children = (
+				184508271F663FEC00D41CD8 /* Controller */,
+				184508281F663FEC00D41CD8 /* Model */,
+				184508291F663FEC00D41CD8 /* View */,
+			);
+			path = "MyLottery（我的彩票）";
+			sourceTree = "<group>";
+		};
+		184508271F663FEC00D41CD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1845083D1F66412500D41CD8 /* WJMyLotteryViewController.h */,
+				1845083E1F66412500D41CD8 /* WJMyLotteryViewController.m */,
+				183A391A1F6B9B5000F66455 /* WJMyLotteryViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		184508281F663FEC00D41CD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		184508291F663FEC00D41CD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1845082A1F663FEC00D41CD8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				18951AC31F682D6100DC0A7F /* Category */,
+				1845082B1F663FEC00D41CD8 /* AppDelegate.h */,
+				1845082C1F663FEC00D41CD8 /* AppDelegate.m */,
+				1845082D1F663FEC00D41CD8 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		18951AC31F682D6100DC0A7F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18951AC41F682D8400DC0A7F /* UIImage+Image.h */,
+				18951AC51F682D8400DC0A7F /* UIImage+Image.m */,
+				18EFCC271F6A1F4300BB0AE1 /* UIView+Frame.h */,
+				18EFCC281F6A1F4300BB0AE1 /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		18EACB541F6CBE7300026776 /* Setting(设置） */ = {
+			isa = PBXGroup;
+			children = (
+				18EACB551F6CBE7300026776 /* Controller */,
+				18EACB561F6CBE7300026776 /* Model */,
+				18EACB571F6CBE7300026776 /* View */,
+			);
+			path = "Setting(设置）";
+			sourceTree = "<group>";
+		};
+		18EACB551F6CBE7300026776 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18EACB581F6CBE9B00026776 /* WJSettingViewController.h */,
+				18EACB591F6CBE9B00026776 /* WJSettingViewController.m */,
+				18C011F61F6D3F7F0062001F /* WJPushViewController.h */,
+				18C011F71F6D3F7F0062001F /* WJPushViewController.m */,
+				18C011FC1F6D51590062001F /* WJBaseViewController.h */,
+				18C011FD1F6D51590062001F /* WJBaseViewController.m */,
+				18C011FF1F6D5C070062001F /* WJAwardViewController.h */,
+				18C012001F6D5C070062001F /* WJAwardViewController.m */,
+				18C012021F6D63660062001F /* WJScoreViewController.h */,
+				18C012031F6D63660062001F /* WJScoreViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18EACB561F6CBE7300026776 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18C011E71F6CC9670062001F /* WJSettingitem.h */,
+				18C011E81F6CC9670062001F /* WJSettingitem.m */,
+				18C011ED1F6D0A680062001F /* WJSettingArrowitem.h */,
+				18C011EE1F6D0A680062001F /* WJSettingArrowitem.m */,
+				18C011F01F6D0A790062001F /* WJSettingSwitchItem.h */,
+				18C011F11F6D0A790062001F /* WJSettingSwitchItem.m */,
+				18C011EA1F6CFC260062001F /* WJGroupItem.h */,
+				18C011EB1F6CFC260062001F /* WJGroupItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18EACB571F6CBE7300026776 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18C011F31F6D13790062001F /* WJSettingCell.h */,
+				18C011F41F6D13790062001F /* WJSettingCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18EFCC2D1F6A4CB800BB0AE1 /* NewFeature(新特性界面） */ = {
+			isa = PBXGroup;
+			children = (
+				18EFCC2E1F6A4CD000BB0AE1 /* Controller */,
+				18EFCC2F1F6A4CD000BB0AE1 /* Model */,
+				18EFCC301F6A4CD000BB0AE1 /* View */,
+			);
+			path = "NewFeature(新特性界面）";
+			sourceTree = "<group>";
+		};
+		18EFCC2E1F6A4CD000BB0AE1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18EFCC311F6A4D2300BB0AE1 /* WJNewFeatureViewController.h */,
+				18EFCC321F6A4D2300BB0AE1 /* WJNewFeatureViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18EFCC2F1F6A4CD000BB0AE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18EFCC301F6A4CD000BB0AE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18EFCC341F6A4E6400BB0AE1 /* WJNewFeatureCell.h */,
+				18EFCC351F6A4E6400BB0AE1 /* WJNewFeatureCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184507F11F66200A00D41CD8 /* 彩票1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184508091F66200A00D41CD8 /* Build configuration list for PBXNativeTarget "彩票1" */;
+			buildPhases = (
+				184507EE1F66200A00D41CD8 /* Sources */,
+				184507EF1F66200A00D41CD8 /* Frameworks */,
+				184507F01F66200A00D41CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "彩票1";
+			productName = "彩票1";
+			productReference = 184507F21F66200A00D41CD8 /* 彩票1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184507EA1F66200A00D41CD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WJ;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					184507F11F66200A00D41CD8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 184507ED1F66200A00D41CD8 /* Build configuration list for PBXProject "彩票1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184507E91F66200A00D41CD8;
+			productRefGroup = 184507F31F66200A00D41CD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184507F11F66200A00D41CD8 /* 彩票1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184507F01F66200A00D41CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184508051F66200A00D41CD8 /* LaunchScreen.storyboard in Resources */,
+				184508021F66200A00D41CD8 /* Assets.xcassets in Resources */,
+				188DE8A41F6911530014230F /* WJPopMenu.xib in Resources */,
+				183A391B1F6B9B5000F66455 /* WJMyLotteryViewController.xib in Resources */,
+				183A39131F6B63AD00F66455 /* WJDiscoveryViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184507EE1F66200A00D41CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EFCC361F6A4E6400BB0AE1 /* WJNewFeatureCell.m in Sources */,
+				18951A931F680E5700DC0A7F /* WJTabBarButton.m in Sources */,
+				184508391F6640C800D41CD8 /* WJDiscoveryViewController.m in Sources */,
+				183A39271F6BFC8000F66455 /* WJGuideService.m in Sources */,
+				18C011FE1F6D51590062001F /* WJBaseViewController.m in Sources */,
+				18EFCC2C1F6A2B5500BB0AE1 /* WJArenaNavController.m in Sources */,
+				1845082F1F663FEC00D41CD8 /* AppDelegate.m in Sources */,
+				183A39191F6B706200F66455 /* WJTitleButton.m in Sources */,
+				18EFCC291F6A1F4300BB0AE1 /* UIView+Frame.m in Sources */,
+				184508301F663FEC00D41CD8 /* main.m in Sources */,
+				184508331F66401700D41CD8 /* WJHallViewController.m in Sources */,
+				18C011EC1F6CFC260062001F /* WJGroupItem.m in Sources */,
+				188DE89F1F690BDB0014230F /* WJCover.m in Sources */,
+				18C011F81F6D3F7F0062001F /* WJPushViewController.m in Sources */,
+				18C012041F6D63660062001F /* WJScoreViewController.m in Sources */,
+				18EACB5A1F6CBE9B00026776 /* WJSettingViewController.m in Sources */,
+				18C012011F6D5C070062001F /* WJAwardViewController.m in Sources */,
+				18C011F51F6D13790062001F /* WJSettingCell.m in Sources */,
+				18951A991F68170B00DC0A7F /* WJNavigationController.m in Sources */,
+				184508361F66404000D41CD8 /* WJArenaViewController.m in Sources */,
+				1845082E1F663FEC00D41CD8 /* WJTabBarController.m in Sources */,
+				18C011F21F6D0A790062001F /* WJSettingSwitchItem.m in Sources */,
+				18EFCC331F6A4D2300BB0AE1 /* WJNewFeatureViewController.m in Sources */,
+				18C011E91F6CC9670062001F /* WJSettingitem.m in Sources */,
+				18C011EF1F6D0A680062001F /* WJSettingArrowitem.m in Sources */,
+				1845083C1F6640F200D41CD8 /* WJHistoryViewController.m in Sources */,
+				183A39161F6B691500F66455 /* WJGroupBuyController.m in Sources */,
+				18951AC61F682D8400DC0A7F /* UIImage+Image.m in Sources */,
+				188C947D1F67DD1E00E19F6C /* WJTabBar.m in Sources */,
+				1845083F1F66412500D41CD8 /* WJMyLotteryViewController.m in Sources */,
+				183A39201F6BECF000F66455 /* WJSaveService.m in Sources */,
+				188DE8A21F6910F20014230F /* WJPopMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		184508031F66200A00D41CD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184508041F66200A00D41CD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184508071F66200A00D41CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		184508081F66200A00D41CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1845080A1F66200A00D41CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "彩票1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.--1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1845080B1F66200A00D41CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "彩票1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.--1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184507ED1F66200A00D41CD8 /* Build configuration list for PBXProject "彩票1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184508071F66200A00D41CD8 /* Debug */,
+				184508081F66200A00D41CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184508091F66200A00D41CD8 /* Build configuration list for PBXNativeTarget "彩票1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1845080A1F66200A00D41CD8 /* Debug */,
+				1845080B1F66200A00D41CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184507EA1F66200A00D41CD8 /* Project object */;
+}
